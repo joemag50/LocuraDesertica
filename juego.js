@@ -74,7 +74,6 @@ var Main =
 		highscoreText.anchor.setTo(0.5,0.5);
 
 		game.time.events.loop(Phaser.Timer.SECOND, this.score, this);
-
 		deltaFlecha = 2000;
 	},
 
